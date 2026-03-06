@@ -4,7 +4,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, CallbackQueryHandler, filters, ContextTypes
 
 # يفضل وضع التوكن في Variables المنصة
-TOKEN = os.getenv("BOT_TOKEN", 8625967612:AAEM2vy2b7PTupjfIaZgLmarjJQZccHBEdI)
+TOKEN="8625967612:AAEM2vy2b7PTupjfIaZgLmarjJQZccHBEdI"
 links = {}
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
